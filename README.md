@@ -55,7 +55,7 @@ The designers have handed you a basic [design file with instructions](./starter-
 ### Resources
 
 - [Starter Code and Design File](starter_code/readme)
-- [Documentation on integrating Drop Caps](https://css-tricks.com/snippets/css/drop-caps/)
+- [Documentation on integrating Drop Caps](://css-tricks.com/snippets/css/drop-caps/)https
 - [Documentation on CSS Pseudo-classes](http://www.w3schools.com/CSS/CSS_pseudo_classes.asp)
 - [Starter Code, Assets, and Design File](starter_code/)
 - [Prepare for JavaScript/jQuery](https://generalassemb.ly/online/videos/what-can-you-do-with-javascript)
