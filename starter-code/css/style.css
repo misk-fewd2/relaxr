@@ -1,1 +1,122 @@
+body{
+    background-color: #f0efef;
+    color: #033048;
+    font-family: 'Arvo', serif;
+}
+.header{
+    background-color: #033048;
+    height: 50px;
+}
+.headerDiv{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.logo{
+    color: #ffff;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: Extra bold;
+   
+}
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-items: end;
+    background-color: #033048;
+    float: right;
+  }
+ h2{
+    font-weight: bold;
+ }
+ .navItems {
+    float: right;
+}
+  
+.navLinks {
+    display: block;
+    color: #f9e42e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+     background-color: #111;
+}
+  .main{
+     display: grid;
+     justify-content: space-evenly;
+     grid-template-columns: 900px 200px;
+     margin-top: 50px;  
+}
 
+img{
+    margin-top: 20px;
+}
+
+.readMore{
+    float: right;
+    color: #032f48;
+    size: 20px;
+}
+hr{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #032f48;
+    margin-top: 25px;
+    margin-bottom:25px
+    
+}
+
+.paragraph{
+    color: dimgrey;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.paragraph::first-letter {
+    font-size: 3em;
+    float: left;
+}
+  .mainh2{
+    color: #032f48;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .signUpDiv{
+      background-color: #f9e42e;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .signUpButton{
+      color: #f0efef;
+      font-family: 'Arvo', serif;
+      font-weight: xxl;
+      background-color: #032f48;
+      padding:10px 20px;
+      border: none;
+  }
+  .relaxrH2Footer{
+      color:#f9e42e;
+      font-size: 30px;
+  }
+  footer{
+      background-color: #121212;
+      height: 200px;
+      display: flex;
+     flex-wrap: nowrap;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+  }
+  .copyRight{
+      margin-top: 30px;
+      color: white;
+      font-size: 12px;
+  }
