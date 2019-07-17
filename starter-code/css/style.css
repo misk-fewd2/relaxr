@@ -1,1 +1,207 @@
+header
+{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: #033048;
+  height: 100px;
+}
+body
+{
+  background-color: gainsboro;
+}
+.logo
+{
+  color: white;
+  font-size: 24px;
+  font-family: 'open sans';
+  font-weight: bolder;
+  text-align: center;
 
+}
+nav
+{
+  align-items: center;
+}
+.nav ul
+{
+color: white;
+display: flex;
+list-style-type: none;
+justify-content: space-around;
+font-family: 'open sans';
+padding: 50px;
+}
+a
+{
+  color: #f9e42e;
+  text-decoration: none;
+  font-weight: normal;
+}
+a:hover
+{
+  color: white;
+}
+.main
+{
+  margin: 50px 60px;
+  display:grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 40px;
+  height: 1200px;
+}
+.item1
+{
+  display: flex;
+  flex-direction: column;
+justify-content: space-between;
+  width: auto;
+  height: 50%;
+
+
+}
+hr
+{
+    border-bottom: solid #033048 3px;
+}
+.item2
+{
+  display: flex;
+  flex-direction: column;
+justify-content: flex-start;
+
+  width: auto;
+  height: 20%;
+}
+.right
+{
+
+}
+
+.left p:first-letter
+{
+  color: #606161;
+  float: left;
+  font-family: 'open sans';
+  font-size: 75px;
+  line-height: 40px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+footer
+{
+display: grid;
+  height: 300px;
+  grid-template-rows: 30% 70%;
+
+}
+.Embeded
+{
+  background-color:  #121212;
+}
+.SignUp
+{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #f9e42e;
+}
+button
+{
+  background-color: #033048;
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+  border-radius: 5px;
+  width: 20%;
+  height: 30px;
+
+}
+.footer1
+{
+  background-color: #121212;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.f:nth-of-type(1)
+{
+  color:  #f9e42e;
+  font-weight: bolder;
+  font-size: 24px;
+
+}
+
+
+h1
+{
+  color: #033048;
+  font-size: 60px;
+}
+.main .left .item1 a
+{
+  text-align: right;
+  color: #033048;
+  font-family: 'open sans';
+  font-weight: 200%;
+
+}
+.f h1
+{
+  color:  #f9e42e;
+  font-weight: bolder;
+  font-size: 24px;
+  font-family: 'open sans';
+  padding: 20px;
+}
+.f h6
+{
+  color: white;
+  font-weight:normal;
+  font-size: 18px;
+  font-family: 'open sans';
+  padding: 20px;
+}
+.f img
+{
+  width:20px;
+  height: 20px;
+  margin: 10px
+}
+.logo h1
+{
+color: white;
+padding: 20px;
+font-family: 'open sans';
+font-weight: bolder;
+}
+.item2 h3
+{
+  color: #033048;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.left p
+{
+font-family: 'open sans';
+color:#606161;
+font-size: 20px;
+}
+.right p
+{
+font-family: 'open sans';
+color:#033048;
+font-size: 20px;
+}
+.right img
+{
+  margin-right:60px;
+}
+.item2 li
+{
+  color: #033048;
+  font-family: 'open sans';
+  margin: 5px;
+}
