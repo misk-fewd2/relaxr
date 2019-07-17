@@ -1,1 +1,124 @@
 
+body{
+    background-color:#f0efef;
+
+
+}
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #033048;
+  }
+  
+  .header li {
+    float: right;
+    
+    margin-right: 20px;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+ .relaxar h1{
+     font-size: 24px;
+     font-weight: 900;
+     float: left;
+     color:white;
+     margin-left: 5px;
+     margin-top:5px;
+     
+ }
+
+ .base-container {
+    display: grid;
+    margin: 20px 0;
+    }
+
+    .grid01 {
+        grid-template-columns: 65% 35% ;
+        grid-gap: 4px;
+        
+        
+      }
+
+      .base-child {
+        background-color: #f0efef;
+        
+        color: white;
+        font-size: 48px;
+        height: 100%;
+      }
+
+      p{
+       font-family: sans-serif;
+       font-size: 22px;
+       margin-left: 10px;
+       color: #121212;
+      }
+      .read p{
+          font-size: 20px;
+          float: right;  
+      }
+    h1{
+        font-family: sans-serif;
+        color: #033048;
+        margin-left: 10px;
+    }
+
+    hr{
+     margin-bottom: 30px;
+    }
+
+    .base-child img{
+        margin-top: 5px;
+        margin-left: 25px;
+    }
+    .base-child h3{
+     font-family: sans-serif;
+     color:#033048;
+     font-size: 30px;
+     font-weight: 600;
+     margin-top: 15px;
+     margin-bottom: 10px;
+     margin-left: 25px;
+
+    }
+    .base-child ul{
+       font-family: sans-serif;
+       font-size: 18px;
+       font-weight: light;
+       margin-left: 5px;
+       margin-left: 30px;
+       color: #033048;
+        
+    }
+    
+    .footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #f9e42e;
+        text-align: center;
+     }
+
+     .footer button{
+         background-color: #033048;
+         color: white;
+     }
