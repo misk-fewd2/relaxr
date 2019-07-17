@@ -1,1 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
 
+body{
+  display:grid 
+
+  background-color: #f0efef;
+}
+
+.h1{
+  box-sizing: border-box;
+  border-color: black;
+  margin: 0;
+  padding: 0px;
+  background-color: #ece8e8;
+font-style: normal;
+font-size: 60px;
+}
+
+li. a. button{
+
+  font-family: "Monserrat" . sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #f9e42e;
+  text-decoration: none;
+
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10% ;
+  background-color: #033048;
+  
+
+}
+
+.logo {
+  display: block;
+  padding: 0px 0px;
+  cursor: pointer;
+  margin-right: auto;
+  font-size: 30px;
+  color: #ece8e8;
+
+}
+
+.nav_links{
+  list-style: none;
+}
+
+.nav_links li {
+display: inline-block;
+padding: 0px 20px;
+
+
+}
+
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+  color: #f3ecaa
+
+
+}
+.nav_links li a:hover {
+  color: #981ca8;
+  
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #f3ecaa;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer
+  transition: all 0.3s ease 0s;
+
+}
+
+button:hover{
+  background-color:rgb(241, 238, 44);
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(234, 236, 238);
+  padding: 2px;
+}
+
+.grid-item1 {
+justify-content: left ;  
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.firstcharacter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+.h2{
+  padding: 2px;
+}
+
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item4 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item5 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item6 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
