@@ -1,1 +1,129 @@
+body {
+    background-color: #f0efef;
+    font-family: 'Open Sans';
+}
 
+.basic-container {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin: 50px;
+}
+
+.sub-container:nth-child(1),
+.sub-container:nth-child(2) {
+    margin-right: 250px;
+}
+
+.sub-container:nth-child(2) {
+    order: 1;
+}
+
+.sub-container:nth-child(4) {
+    order: 1;
+}
+
+.first-box h3,
+.second-box h3 {
+    color: #2E2E2E;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+
+.post-paraghragh:first-of-type:first-letter
+    {
+    float: left;
+    font-size: 50px;
+    line-height: 65px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-weight: 300;
+}
+
+
+.header-style {
+    background-color: #033048;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.tabs a {
+    display: inline-block;
+    margin-right: 40px;
+    color: #f9e42e;
+    text-decoration: none;
+    font-family: 'sans';
+}
+
+.logo {
+    align-items: flex-start;
+    color: white;
+    margin-left: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9e42e;
+}
+
+.button-layout {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 8px 25px;
+    background-color: #033048;
+    color: white;
+}
+
+.reach-us {
+    background-color: #2E2E2E;
+    padding: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    color: #f9e42e;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.social-media-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 650px;
+    margin-left: 650px;
+}
+
+.social-media-div img {
+    height: 20px;
+}
+
+.reach-us p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    color: white;
+}
+
+
+.wp-box {
+    background: #FFF;
+    border: 1px solid #E1E1E1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 330px;
+}
