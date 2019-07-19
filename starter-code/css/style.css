@@ -1,1 +1,58 @@
+body{
+    background-color: #f0efef;
+}
+.start{
+    text-transform: uppercase;
+    padding: 8px 12px;
+    color: whitesmoke;
+    text-align: left;
+    display: inline;
+}
+header{
+    background-color: #033048;
+      display: flex;
+       justify-content: space-between;
+       height: 100px;
+       flex-wrap: wrap;   
+   }
+.name{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    text-shadow: 6px 1px silver;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-indent: 50px;
+  }
+.categories, .grid-container{
+    display: grid;
+    align-content: flex-end;
+    grid-column-end: 100px 33px 822px;
+    grid-template-columns: 750px 700px 800px;
+    grid-template-columns: 650px 100px 800px;
+}
 
+.AboRelaxr{
+    display: grid;
+    grid-template-columns: 750px  600px 750px;
+    grid-template-columns: 750px  600px 750px;
+
+    text-align: Top right;
+}
+  .signup{
+    background-color: #f9e42e;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    display: block;
+    
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
