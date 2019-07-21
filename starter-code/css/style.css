@@ -1,1 +1,31 @@
+body{
+ font-family: 'Open Sans';
+ font-weight:700;
+ background-color:  #f0efef;
+ color:#033048;
+}
 
+.navBar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #033048;
+}
+.logoS{
+  color: #f0efef;
+}
+.navText{
+  color: #f9e42e;
+}
+.gridBolg{
+  display: grid;
+  grid-template-columns: auto 500px;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+.subhead::first-letter {
+  font-size: 260%;
+}
+.readME{
+
+}
