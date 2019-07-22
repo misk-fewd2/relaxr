@@ -1,1 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
+*{
+    font-family: 'Open Sans';
+}
+a {
+    color: #f9e42e;
+ }
+
+.R {
+    color: white;
+    font-weight: 800 ;
+    font-size: 24px;
+    display: flex;
+    font-family: 'Open Sans';
+    font-weight: 800px;
+
+}
+.body_title {
+font-size: 24px;
+font-weight: bold;
+padding: 10px;
+}
+
+.Paragragh p::first-letter {
+    color: #903; 
+    font-family: Georgia;
+    initial-letter: 2;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 3em;
+  }
+.header {
+    padding: 20px;
+    display: flex;
+    background-color: #033048;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar{
+    display: flex;
+}
+.article {
+    display: grid;
+    grid-template-columns: ;
+    font-family: 'Open Sans';
+    color: #033048;
+}
+
+.sidebar div{
+    font-weight: 800 ;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color: #033048;
+    padding-left: 0px;
+}
+.menu {
+    padding-left: 0px ;
+    font-family:'Open Sans';
+
+}
+
+.main {
+    display: grid;
+    background-color:  #f0efef;
+    grid-template-columns: 80% 20%;
+
+}
+button {
+    margin: auto;
+    background-color: #033048;
+    color: white;
+    border: none;
+    font-family: 'Open Sans';
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+footer .buttonBC{
+    padding: 20px;
+    display: flex;
+    background-color: #f9e42e;
+    justify-content: space-between;
+    align-items: center;   
+}
+.blackfooter {
+    display: grid;
+    justify-items: center;
+    font-family: ''Open Sans'';
+    font-size: 24px;
+    padding: 20px ;
+    background-color: rgb(17, 14, 14);
+    color: #f9e42e;
+}
+.icons img {
+    padding: 30px;
+}
+ .rel {
+     margin: auto;
+     padding: 20px;
+     color: #f9e42e;
+     font-weight: 800;
+
+ }
+ .copy {
+     color: white;
+     font-size: 15px;
+     position: relative;
+     font-weight: 800;
+
+ }
