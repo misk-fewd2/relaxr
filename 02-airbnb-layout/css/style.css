@@ -1,0 +1,93 @@
+
+body {
+  background-color: gainsboro;
+}
+.headline {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-family: 'Bahianita', cursive;
+  font-color:black;
+  font-size: 100px;
+}
+h3{
+  font-family: 'Unica One',cursive;
+  font-color:black;
+  font-size: 20px;
+}
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+}
+.cities {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-image: url('../img/london.jpg');
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.guidebook-button {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px 20px;
+  font-size:30px;
+
+}
+button{
+  border:300px;
+  color:black;
+  font-family: Cairo;
+font-size: 40px;
+}
+
+}
+.deadline {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+   font-family: Mountains_of_Christmas,Notable;
+}
+	.deadline-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+   font-family: Mountains_of_Christmas,Notable;
+}
+.cities-one {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-image: url('../img/new-york.jpg');
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.cities-two {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-image: url('../img/napa.jpg');
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cities-three {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-image: url('../img/san-francisco-2.jpg');
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.p{
+  font-family: Caveat;
+  text-decoration-color: white;
+  size:400px;
+}
